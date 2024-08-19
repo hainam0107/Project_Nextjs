@@ -40,7 +40,7 @@ export default function CartPage() {
                     </div>
                     <div className="flex justify-between gap-2 ">
                         <button className="w-[140px] h-[50px] mt-[15px] text-[12px] border-2 border-black font-bold">CONTINUE SHOPPING</button>
-                        <a href="/checkout">
+                        <a href="/views/client/checkout">
                             <button className="w-[140px] h-[50px] mt-[15px] text-[12px] text-white bg-black font-bold">PLACE ORDER</button>
                         </a>
                     </div>

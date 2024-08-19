@@ -1,4 +1,4 @@
-import ProductPage from "@/app/PageHome/Product/page";
+import ProductPage from "../../../PageHome/Product/page";
 export default function ProductProlatedPage() {
     return (
         <div className="bg-white p-[30px]  mt-[30px]">

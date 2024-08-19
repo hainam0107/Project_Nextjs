@@ -11,7 +11,7 @@ export default function HeaderPage() {
             </div>
             <div><input className="h-[50px] w-[402px] p-2 ml-[201px] border-2 border-black" type="text" placeholder="Type in and hit Enter" /></div>
             <div className="flex items-center">
-                <a href="/cart">
+                <a href="/views/client/cart">
                     <div className="flex items-center font-bold"><i className="fa-solid fa-cart-shopping mx-1"></i>Cart</div>
                 </a>
                 <div className="mx-3 h-[26px] w-[2px] bg-black"></div>

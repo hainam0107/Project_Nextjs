@@ -7,12 +7,12 @@ export default function NavPage() {
             <div>
                 <ul className="flex gap-7 text-[13px] font-bold">
                     <li><DropdownMenuDemo /></li>
-                    <a href="categoryproduct"><li>SKINCARE</li></a>
-                    <a href="categoryproduct"><li>MAKE UP</li></a>
-                    <a href="categoryproduct"><li>HAIR CARE</li></a>
-                    <a href="categoryproduct"><li>BATH & BODY</li></a>
-                    <a href="categoryproduct"><li>BEAUTY & SUPPLEMENTS</li></a>
-                    <a href="categoryproduct"><li>PROMOS</li></a>
+                    <a href="/views/client/product/category"><li>SKINCARE</li></a>
+                    <a href="/views/client/product/category"><li>MAKE UP</li></a>
+                    <a href="/views/client/product/category"><li>HAIR CARE</li></a>
+                    <a href="/views/client/product/category"><li>BATH & BODY</li></a>
+                    <a href="/views/client/product/category"><li>BEAUTY & SUPPLEMENTS</li></a>
+                    <a href="/views/client/product/category"><li>PROMOS</li></a>
                 </ul>
             </div>
             <div className="">

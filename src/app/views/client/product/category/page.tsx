@@ -1,4 +1,4 @@
-import ProductPage from "../PageHome/Product/page";
+import ProductPage from "../../PageHome/Product/page";
 export default function CategoryProductPage() {
     return (
         <div className="px-[230px] bg-[#d8d8d8]">

@@ -3,7 +3,7 @@ export default function ProductPage() {
         <div className="h-[442[px]">
             <div className="w-[254px] h-[248px] bg-[#c7c7c7] flex justify-center items-center relative">
                 <div className="">
-                    <a href="detailproduct">
+                    <a href="/views/client/product/detail">
                         <i className="fa-solid fa-image text-[100px]"></i>
                     </a>
                 </div>
