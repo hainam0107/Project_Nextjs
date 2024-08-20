@@ -1,5 +1,5 @@
 import { DropdownMenuDemo } from "./MenuList/page";
-
+import Link from "next/link";
 
 export default function NavPage() {
     return (
@@ -7,12 +7,12 @@ export default function NavPage() {
             <div>
                 <ul className="flex gap-7 text-[13px] font-bold">
                     <li><DropdownMenuDemo /></li>
-                    <a href="/views/client/product/category"><li>SKINCARE</li></a>
-                    <a href="/views/client/product/category"><li>MAKE UP</li></a>
-                    <a href="/views/client/product/category"><li>HAIR CARE</li></a>
-                    <a href="/views/client/product/category"><li>BATH & BODY</li></a>
-                    <a href="/views/client/product/category"><li>BEAUTY & SUPPLEMENTS</li></a>
-                    <a href="/views/client/product/category"><li>PROMOS</li></a>
+                    <Link href="/views/client/product/category"><li>SKINCARE</li></Link>
+                    <Link href="/views/client/product/category"><li>MAKE UP</li></Link>
+                    <Link href="/views/client/product/category"><li>HAIR CARE</li></Link>
+                    <Link href="/views/client/product/category"><li>BATH & BODY</li></Link>
+                    <Link href="/views/client/product/category"><li>BEAUTY & SUPPLEMENTS</li></Link>
+                    <Link href="/views/client/product/category"><li>PROMOS</li></Link>
                 </ul>
             </div>
             <div className="">

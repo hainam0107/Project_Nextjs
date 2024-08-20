@@ -1,4 +1,5 @@
 import BoxProductCartPage from "./BoxProductCart/page";
+import Link from "next/link";
 export default function CartPage() {
     return (
         <div className="px-[230px] bg-[#d8d8d8] pb-[50px]">
@@ -40,9 +41,9 @@ export default function CartPage() {
                     </div>
                     <div className="flex justify-between gap-2 ">
                         <button className="w-[140px] h-[50px] mt-[15px] text-[12px] border-2 border-black font-bold">CONTINUE SHOPPING</button>
-                        <a href="/views/client/checkout">
+                        <Link href="/views/client/checkout">
                             <button className="w-[140px] h-[50px] mt-[15px] text-[12px] text-white bg-black font-bold">PLACE ORDER</button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import {
     DropdownMenuContent,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-
+import Link from "next/link"
 export function DropdownMenuUser() {
     return (
         <DropdownMenu>
@@ -46,7 +46,7 @@ export function DropdownMenuUser() {
                     </div>
                 </div>
                 <div className="mt-[30px] text-[14px] font-bold">
-                    New Member? <label className="underline"><a className="" href="views/client/registration">Register Now</a></label>
+                    New Member? <label className="underline"><Link className="" href="/views/client/registration">Register Now</Link></label>
                 </div>
 
 
