@@ -1,4 +1,5 @@
 import BoxProDashBoardPage from "./BoxProDashBoard/page";
+import { TabsDemo } from "./tabdashboard/page";
 export default function DashboardPage() {
     return (
         <div>
@@ -20,7 +21,7 @@ export default function DashboardPage() {
                             <i className="fa-regular fa-circle-user text-[60px] text-gray-500"></i>
                         </div>
                     </div>
-                    <div className="px-[40px] mt-[30px]">
+                    {/* <div className="px-[40px] mt-[30px]">
                         <div className="flex items-center gap-10 text-[14px] font-[600]">
                             <p>REVIEWED PRODUCTS</p>
                             <div className="w-[174px] h-[55px] border-2 border-black flex justify-center items-center">
@@ -47,7 +48,8 @@ export default function DashboardPage() {
                         <BoxProDashBoardPage />
                         <BoxProDashBoardPage />
                         <BoxProDashBoardPage />
-                    </div>
+                    </div> */}
+                    <TabsDemo/>
                 </div>
             </div >
         </div >

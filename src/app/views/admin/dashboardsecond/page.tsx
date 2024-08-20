@@ -1,3 +1,4 @@
+import { ChartComponent } from "./chart/page";
 export default function DashboardSecondPage() {
     return (
         <div>
@@ -31,15 +32,11 @@ export default function DashboardSecondPage() {
                         <div className="grid grid-cols-2">
                             <div>
                                 <p className="text-[35px] font-bold">4565 Visitor</p>
-                                <div>
-                                    <i className="fa-solid fa-chart-line text-[380px]"></i>
-                                </div>
+                                <ChartComponent />
                             </div>
                             <div>
                                 <p className="text-[35px] font-bold">AED1430 Total Purchases </p>
-                                <div>
-                                    <i className="fa-solid fa-chart-line text-[380px]"></i>
-                                </div>
+                                <ChartComponent />
                             </div>
                         </div>
                         <div className="mt-[50px]">
